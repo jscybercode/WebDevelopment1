@@ -9,6 +9,8 @@
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
   }
+
+  .column h2{text-align: center;}
   
   /* Clear floats after the columns */
   .row:after {
@@ -28,7 +30,22 @@ footer .copyright{width: 100vw; text-align: center;}
   background: #6cf;
 }
 
-
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+  }
+  
+  .fa-instagram {
+    background: #3B5998;
+    color: white;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+  }
+  
 
   /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
