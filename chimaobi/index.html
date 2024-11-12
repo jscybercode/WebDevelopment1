@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+    <style>
+.contact{padding: 20%; height: 100vh;}
+
+form{
+    width:90vw;
+    max-width:768px;
+    border:1px solid #ddd;
+    padding:3vw;
+    display:flex;
+    flex-direction:column;
+    border-radius:25px;
+    margin: auto;
+}
+
+label{
+    margin-bottom:25px;
+    position:relative;
+    border-bottom:1px solid #ddd;
+}
+</style>
+</head>
+<body>
+ <header>
+    <nav class="navbar">
+        <!-- LOGO -->
+        <div class="logo">CJ's<span>DIET LAB</span></div>
+    
+        <!-- NAVIGATION MENU -->
+        <ul class="nav-links">
+    
+          <!-- USING CHECKBOX HACK -->
+          <input type="checkbox" id="checkbox_toggle" />
+          <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+    
+          <!-- NAVIGATION MENUS -->
+          <div class="menu">
+    
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+    
+            <li class="services">
+              <a href="/">Classes</a>
+    
+              <!-- DROPDOWN MENU -->
+              <ul class="dropdown">
+                <li><a href="./CHAP1/index.html">chap1</a></li>
+                <li><a href="chap2/index.html">chap2</a></li>
+                <li><a href="chap3/index.html">chap3</a></li>
+                <li><a href="chap4/index.html">chap4</a></li>
+                <li><a href="chap5/index.html">chap5</a></li>
+                <li><a href="chap6/index.html">chap6</a></li>
+              </ul>
+    
+            </li>
+    
+            <li><a href="#">Notes</a></li>
+            <li><a href="#">Contact</a></li>
+          </div>
+        </ul>
+      </nav>
+    <div>
+
+    </div>
+ </header>   
+<main>
+    <div class="about" id="about">
+        <div class="aboutImage"></div>
+        <div class="aboutText">
+          <h3>
+            So, Who Am I ?
+          </h3>
+          <a href="#" style="color: yellowgreen; font-size: xx-large;">HOME</a>
+        </div>
+        </div>
+  
+    <div></div>
+    <div class="contact" id="contact">
+      <div class="register">
+        <h2>Contact Me</h2>
+        <form>
+
+            <label for="name">
+                <input type="text" id="name" placeholder="Name">
+                <span>Name</span>
+            </label>
+            <label for="email">
+                <input type="email" id="email" placeholder="Email">
+                <span>Email</span>
+            </label>
+            <label for="phone">
+                <input type="text" id="phone" placeholder="Phone">
+                <span>Phone</span>
+            </label>
+            <button type="button">Submit</button>
+        </form>
+        <a href="#">HOME</a>
+    </div>
+    </div>
+</main> 
+<footer>
+
+</footer>   
+</body>
+</html>
